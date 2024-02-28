@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerInteract : MonoBehaviour
 {
@@ -11,11 +12,13 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField]
     private LayerMask mask;
     private PlayerUI PlayerUI;
+    private PlayerInputManager inputManager;
 
     void Start()
     {
         cam = GetComponent<PlayerLook>().cam;
         PlayerUI = GetComponent<PlayerUI>();
+        inputManager = GetComponent<PlayerInputManager>
     }
 
     // Update is called once per frame
