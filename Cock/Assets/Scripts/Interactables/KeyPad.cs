@@ -21,7 +21,6 @@ public class KeyPad : Interacatble
 
     protected override void Interact()
     {
-        Debug.Log("Cock");
         doorOpen = !doorOpen;
         door.GetComponent<Animator>().SetBool("IsOpen", doorOpen);
 
