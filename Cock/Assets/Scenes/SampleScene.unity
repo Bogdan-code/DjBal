@@ -226,7 +226,7 @@ Transform:
   m_GameObject: {fileID: 182743677}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.80930257, y: 2.549762, z: 11.551676}
+  m_LocalPosition: {x: 0.8, y: 2.549762, z: 11.48}
   m_LocalScale: {x: 1.5, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -422,7 +422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptMessage: Use KeyPad
-  door: {fileID: 0}
+  door: {fileID: 1803814641}
 --- !u!1 &429115664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,7 +1559,7 @@ Transform:
   m_GameObject: {fileID: 1396350390}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3093026, y: 2.549762, z: 11.551676}
+  m_LocalPosition: {x: 2.3, y: 2.549762, z: 11.47}
   m_LocalScale: {x: 1.5, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
