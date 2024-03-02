@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class NewBehaviourScript : MonoBehaviour
+public class InputManager : MonoBehaviour
 {
 
     private PlayerInput playerInput;
-    private PlayerInput.OnFootActions onFoot;
+    public PlayerInput.OnFootActions onFoot;
 
     private PlayerMotor motor;
     private PlayerLook look;
