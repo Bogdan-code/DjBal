@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerMotor : MonoBehaviour
 {
@@ -64,6 +65,8 @@ public class PlayerMotor : MonoBehaviour
     }
     public void ProcessMove(Vector2 input)
     {
+
+
         Vector3 moveDirection = Vector3.zero;
         moveDirection.x = input.x;
         moveDirection.z = input.y;
@@ -85,4 +88,8 @@ public class PlayerMotor : MonoBehaviour
         }
     }
 
+    public void Sprint(Button input)
+    {
+
+    }
 }
